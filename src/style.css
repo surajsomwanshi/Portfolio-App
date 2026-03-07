@@ -1,0 +1,64 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;700;800&display=swap');
+
+/* CSS root properties */
+:root {
+  --bg:        #0a0a0f;       /* Page background         */
+  --surface:   #12121a;       /* Card / block background */
+  --border:    #1e1e2e;       /* Border color            */
+  --accent:    #00e5a0;       /* Primary accent (green)  */
+  --accent2:   #ff6b6b;       /* Secondary accent (red)  */
+  --text:      #e8e8f0;       /* Main text               */
+  --muted:     #7070a0;       /* Subtle / secondary text */
+  --font-head: 'Syne', sans-serif;
+  --font-mono: 'Space Mono', monospace;
+}
+
+/* Reset the window */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-mono);
+  font-size: 15px;
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* GRID BACKGROUND */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image:
+    linear-gradient(var(--border) 1px, transparent 1px),
+    linear-gradient(90deg, var(--border) 1px, transparent 1px);
+  background-size: 40px 40px;
+  opacity: 0.35;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Ensure everything sits above the grid */
+#app { position: relative; z-index: 1; }
+
+/* SCROLL FADE-UP ANIMATION */
+.fade-up {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.fade-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
