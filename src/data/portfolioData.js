@@ -10,13 +10,13 @@ export const profile = {
   linkedin: 'https://www.linkedin.com/in/suraj-somwanshi',
   github:   'https://github.com/surajsomwanshi',
   summary:
-    'Results-driven Java Backend / Full Stack Developer with 4+ years of experience in BFSI and Life Science domains. Proven expertise in designing scalable RESTful APIs using Spring Boot, JPA/Hibernate, and Microservices. Hands-on with Angular and Vue 3. Recognized 3× as Star of the Month at TCS.',
+    'Results-driven Java Backend / Full Stack Developer with 4 years of experience in BFSI and Life Science domains. Proven expertise in designing scalable RESTful APIs using Spring Boot, JPA/Hibernate, and Microservices. Hands-on with Angular and Vue 3. Recognized 3× as Star of the Month at TCS.',
 }
 
 // STATS
 export const stats = [
-  { value: '4+',  label: 'Years Experience'      },
-  { value: '15+', label: 'Microservices Built'   },
+  { value: '4',  label: 'Years Experience'      },
+  { value: '120+', label: 'RESTful APIs built'   },
   { value: '3×',  label: 'Star of the Month'     },
   { value: '50+', label: 'Incidents Resolved'    },
   { value: '30%', label: 'Response Time Reduced' },
@@ -26,11 +26,11 @@ export const stats = [
 export const skills = [
   {
     category: 'Languages & Frameworks',
-    items: ['Java', 'Spring Boot', 'Spring Security', 'Spring Data JPA', 'Hibernate', 'REST APIs', 'Microservices', 'Angular', 'Vue 3'],
+    items: ['Java', 'Spring Boot', 'Spring Data JPA', 'Hibernate', 'REST APIs', 'Microservices', 'Angular', 'Vue 3'],
   },
   {
     category: 'Databases',
-    items: ['PostgreSQL', 'Oracle DB'],
+    items: ['PostgreSQL', 'MySQL', 'Oracle DB'],
   },
   {
     category: 'Cloud & DevOps',
@@ -38,7 +38,7 @@ export const skills = [
   },
   {
     category: 'Testing & Security',
-    items: ['JUnit', 'Mockito', 'JWT', 'OAuth2', 'SAST', 'Code Vulnerability Checks'],
+    items: ['JUnit', 'JWT', 'SAST', 'Code Vulnerability Checks', 'Unit Testing'],
   },
   {
     category: 'Tools & Platforms',
@@ -52,17 +52,16 @@ export const skills = [
 
 // EXPERIENCE
 export const experience = {
-  title:   'Systems Engineer — Java Backend / Full Stack Developer',
+  title:   'Systems Engineer — Java Full Stack Developer',
   company: 'Tata Consultancy Services',
   period:  'Feb 2022 – Present',
   bullets: [
     'Collaborated with clients, product owners, and business analysts across 2 domains to translate requirements into technical solutions — 100% alignment with business objectives.',
-    'Actively participated in Agile ceremonies (Sprint Planning, Reviews, Retrospectives) across 10+ sprints, consistently delivering features on time.',
-    'Managed end-to-end deployments using Jenkins and GitLab CI/CD pipelines in AWS cloud environments.',
-    'Resolved 50+ production issues using Kibana and Splunk for root-cause analysis, maintaining SLA compliance.',
+    'Actively participated in Agile ceremonies (Sprint Planning, Reviews, Retrospectives, backlog refinements) across 10+ sprints, consistently delivering features on time.',
+    'Managed end-to-end deployments using Jenkins and GitLab CI/CD pipelines in AWS & Azure cloud environments.',
+    'Resolved 50+ issues using Kibana and Splunk for root-cause analysis, maintaining SLA compliance.',
     'Performed SAST and Code Vulnerability Checks, achieving 100% adherence to secure coding standards.',
-    'Supported UAT cycles — contributing to zero critical defects across 4 consecutive release cycles.',
-    'Conducted peer code reviews and mentored junior developers, improving team productivity.',
+    'Actively contributed to peer code reviews, learned and shared best practices, and supported the on-boarding of new team members',
     'Recognized 3× as Star of the Month for exceptional performance, code quality, and timely delivery.',
   ],
 }
@@ -70,25 +69,33 @@ export const experience = {
 // PROJECTS
 export const projects = [
   {
+    name:        'Personal Portfolio App',
+    description: 'Designed and developed a responsive personal portfolio website using Vue 3, showcasing projects, skills, and professional background. Implemented component-based architecture',
+    tech:        ['Vue 3', 'JavaScript (ES6+)', 'HTML5', 'CSS3', 'Vite'],
+    highlights: [
+      'Built a personal portfolio website using Vue 3 with component-based architecture',
+      'Designed fully responsive UI compatible with mobile, tablet, and desktop',
+      'Wrote clean, reusable components following Vue 3 best practices'
+    ],
+  },
+  {
     name:        'TCS ADD Safety Platform',
     description: 'AI-enabled pharmacovigilance platform automating safety-case processing in life sciences — case ingestion, medical coding, seriousness/causality assessments, and narrative report generation.',
     tech:        ['Spring Boot', 'Angular', 'PostgreSQL', 'Jenkins', 'AWS'],
     highlights: [
-      'Designed RESTful APIs for File Case Monitor, Ontology Management, and Batch Monitor modules.',
+      'Designed RESTful APIs for File Case Monitor, Ontology Management, Analytics and Batch Monitor modules.',
       'Built 10+ reusable Angular components from scratch, cutting frontend dev effort by 25%.',
-      'Implemented automated validity and duplicate checks, improving adverse-event processing accuracy.',
-      'Integrated Jenkins CI/CD pipelines with post-deployment sanity testing.',
+      'Migrated spring boot applications to newer versions',
     ],
   },
   {
-    name:        'TRYG Insurance Platform',
-    description: 'Scalable microservices-based digital insurance platform for a leading Norwegian insurer — enabling seamless policy and offers management across Home, Content, Cabin, and Pet insurance products.',
-    tech:        ['Spring Boot', 'Microservices', 'OpenAPI/Swagger', 'PostgreSQL', 'Vue 3', 'AWS'],
+    name:        'TRYG A/S [House & Content Product Team]',
+    description: 'A scalable insurance solution enabling digital transformation of home & content/cabin, pet insurance products through microservices-based architecture for seamless policy and offers management.',
+    tech:        ['Spring Boot', 'Microservices', 'OpenAPI/Swagger', 'Oracle', 'Vue 3', 'Azure'],
     highlights: [
-      'Developed 15+ RESTful microservices, improving system integration efficiency by 30%.',
-      'Optimized API performance through query tuning, reducing backend response time by 30%.',
-      'Designed Vue 3 frontend components for policy management UI integrated with Spring Boot backend.',
-      'Built comprehensive unit tests with JUnit and Mockito — high coverage, fewer regression bugs.',
+      'Developed and maintained RESTful microservices and APIs for Home and Content, Pet insurance products using Spring Boot and OpenAPI/Swagger, ensuring high availability and improving integration efficiency by 30% across internal systems',
+      'Designed Vue 3 frontend components for Franchise application UI and integrated with Spring Boot backend.',
+      'Developed a different RESTFul APIs for Franschise application',
     ],
   },
 ]
@@ -112,9 +119,9 @@ export const education = [
 // CERTIFICATIONS 
 // statusClass options: 'in-progress' | 'planned' | 'completed'
 export const certifications = [
-  { name: 'AWS Certified Developer – Associate',               status: 'In Progress', statusClass: 'in-progress' },
-  { name: 'Oracle Certified Professional: Java SE Developer',  status: 'Planned',     statusClass: 'planned'     },
-  { name: 'Spring Professional Certification',                status: 'Planned',     statusClass: 'planned'     },
+  { name: 'AWS Foundations: Getting StartedWS Foundations: Getting Started with the AWS Cloud Essentials',   status: 'Completed', statusClass: 'completed' },
+  { name: 'AWS Technical Essentials',  status: 'Completed',     statusClass: 'completed'     },
+  { name: 'Learning Spring with Spring Boot',                status: 'Completed',     statusClass: 'completed'     },
   { name: 'TCS: Microservices & Cloud Architecture',          status: 'Completed',   statusClass: 'completed'   },
   { name: 'TCS: Secure Coding Training',                      status: 'Completed',   statusClass: 'completed'   },
 ]
