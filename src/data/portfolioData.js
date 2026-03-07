@@ -1,4 +1,4 @@
-//  portfolioData.js — ALL my portfolio content data is here!
+//  portfolioData.js — All my portfolio content data is here!
 
 // MY PERSONAL INFO 
 export const profile = {
@@ -89,7 +89,7 @@ export const projects = [
     ],
   },
   {
-    name:        'TRYG A/S [House & Content Product Team]',
+    name:        'TRYG Leap Norway[House & Content Product Team]',
     description: 'A scalable insurance solution enabling digital transformation of home & content/cabin, pet insurance products through microservices-based architecture for seamless policy and offers management.',
     tech:        ['Spring Boot', 'Microservices', 'OpenAPI/Swagger', 'Oracle', 'Vue 3', 'Azure'],
     highlights: [
@@ -117,7 +117,6 @@ export const education = [
 ]
 
 // CERTIFICATIONS 
-// statusClass options: 'in-progress' | 'planned' | 'completed'
 export const certifications = [
   { name: 'AWS Foundations: Getting StartedWS Foundations: Getting Started with the AWS Cloud Essentials',   status: 'Completed', statusClass: 'completed' },
   { name: 'AWS Technical Essentials',  status: 'Completed',     statusClass: 'completed'     },
