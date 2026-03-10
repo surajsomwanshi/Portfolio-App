@@ -74,7 +74,7 @@ export const projects = [
     tech:        ['Vue 3', 'JavaScript (ES6+)', 'HTML5', 'CSS3', 'Vite'],
     highlights: [
       'Built a personal portfolio website using Vue 3 with component-based architecture',
-      'Designed fully responsive UI compatible with mobile, tablet, and desktop',
+      'Designed and developed fully responsive UI compatible web application',
       'Wrote clean, reusable components following Vue 3 best practices'
     ],
   },
@@ -83,19 +83,19 @@ export const projects = [
     description: 'AI-enabled pharmacovigilance platform automating safety-case processing in life sciences — case ingestion, medical coding, seriousness/causality assessments, and narrative report generation.',
     tech:        ['Spring Boot', 'Angular', 'PostgreSQL', 'Jenkins', 'AWS'],
     highlights: [
-      'Designed RESTful APIs for File Case Monitor, Ontology Management, Analytics and Batch Monitor modules.',
-      'Built 10+ reusable Angular components from scratch, cutting frontend dev effort by 25%.',
-      'Migrated spring boot applications to newer versions',
+      'Designed and implemented RESTful APIs using Spring Boot across multiple application modules, including File Case Monitor, Ontology Management, Analytics, and Batch Monitor.',
+      'Developed 10+ reusable Angular components, improving UI reusability and reducing frontend development effort by 25%.',
+      'Migrated Spring Boot applications to newer versions by upgrading Spring Boot, Spring Framework, and Java versions, ensuring compatibility, improved performance, and security fixes.',
     ],
   },
   {
     name:        'TRYG Leap Norway[House & Content Product Team]',
     description: 'A scalable insurance solution enabling digital transformation of home & content/cabin, pet insurance products through microservices-based architecture for seamless policy and offers management.',
-    tech:        ['Spring Boot', 'Microservices', 'OpenAPI/Swagger', 'Oracle', 'Vue 3', 'Azure'],
+    tech:        ['Spring Boot', 'Microservices', 'OpenAPI/Swagger', 'Oracle DB', 'Vue 3', 'Azure', 'GitLab CI/CD'],
     highlights: [
-      'Developed and maintained RESTful microservices and APIs for Home and Content, Pet insurance products using Spring Boot and OpenAPI/Swagger, ensuring high availability and improving integration efficiency by 30% across internal systems',
-      'Designed Vue 3 frontend components for Franchise application UI and integrated with Spring Boot backend.',
-      'Developed a different RESTFul APIs for Franschise application',
+      'Developed and maintained RESTful APIs for Home, Content, and Pet insurance products using Spring Boot and OpenAPI/Swagger, improving system integration efficiency by 30%.'
+      'Built Vue 3 UI components for the Franchise application and integrated them with Spring Boot backend services.',
+      'Designed and implemented RESTful APIs for the Franchise application, supporting core business operations and frontend integration',
     ],
   },
 ]
