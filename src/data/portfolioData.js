@@ -93,7 +93,7 @@ export const projects = [
     description: 'A scalable insurance solution enabling digital transformation of home & content/cabin, pet insurance products through microservices-based architecture for seamless policy and offers management.',
     tech:        ['Spring Boot', 'Microservices', 'OpenAPI/Swagger', 'Oracle DB', 'Vue 3', 'Azure', 'GitLab CI/CD'],
     highlights: [
-      'Developed and maintained RESTful APIs for Home, Content, and Pet insurance products using Spring Boot and OpenAPI/Swagger, improving system integration efficiency by 30%.'
+      'Developed and maintained RESTful APIs for Home, Content, and Pet insurance products using Spring Boot and OpenAPI/Swagger, improving system integration efficiency by 30%.',
       'Built Vue 3 UI components for the Franchise application and integrated them with Spring Boot backend services.',
       'Designed and implemented RESTful APIs for the Franchise application, supporting core business operations and frontend integration',
     ],
