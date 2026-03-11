@@ -10,7 +10,7 @@ export const profile = {
   linkedin: 'https://www.linkedin.com/in/suraj-somwanshi',
   github:   'https://github.com/surajsomwanshi',
   summary:
-    'Results-driven Java Backend / Full Stack Developer with 4 years of experience in BFSI and Life Science domains. Proven expertise in designing scalable RESTful APIs using Spring Boot, JPA/Hibernate, and Microservices. Hands-on with Angular and Vue 3. Recognized 3× as Star of the Month at TCS.',
+    'Results-driven Java Backend / Full Stack Developer with 4 years of experience in BFSI[insurance] and Life Science domains. Proven expertise in designing scalable RESTful APIs using Spring Boot, Spring Data JPA, and Microservices. Hands-on with Angular and Vue 3. Recognized 3× as Star of the Month at TCS.',
 }
 
 // STATS
@@ -118,10 +118,10 @@ export const education = [
 
 // CERTIFICATIONS 
 export const certifications = [
-  { name: 'AWS Foundations: Getting StartedWS Foundations: Getting Started with the AWS Cloud Essentials',   status: 'Completed', statusClass: 'completed' },
+  { name: 'AWS Foundations: Getting Started with the AWS Cloud Essentials',   status: 'Completed', statusClass: 'completed' },
   { name: 'AWS Technical Essentials',  status: 'Completed',     statusClass: 'completed'     },
   { name: 'Learning Spring with Spring Boot',                status: 'Completed',     statusClass: 'completed'     },
-  { name: 'TCS: Microservices & Cloud Architecture',          status: 'Completed',   statusClass: 'completed'   },
+  { name: 'TCS: Spring Boot & Microservices Architecture',          status: 'Completed',   statusClass: 'completed'   },
   { name: 'TCS: Secure Coding Training',                      status: 'Completed',   statusClass: 'completed'   },
 ]
 
