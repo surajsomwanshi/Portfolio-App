@@ -10,7 +10,7 @@ export const profile = {
   linkedin: 'https://www.linkedin.com/in/suraj-somwanshi',
   github:   'https://github.com/surajsomwanshi',
   summary:
-    'Results-driven Java Backend / Full Stack Developer with 4 years of experience in BFSI[insurance] and Life Science domains. Proven expertise in designing scalable RESTful APIs using Spring Boot, Spring Data JPA, and Microservices. Hands-on with Angular and Vue 3. Recognized 3× as Star of the Month at TCS.',
+    'Java Full Stack Developer with 4 years of experience in BFSI Insurance and Life Science domains. Strong expertise in Spring Boot, REST APIs, PostgreSQL, and experience working with Microservices and Monolithic architectures. Working knowledge of Angular and Vue with a primary focus on backend development, production support, and Agile delivery. Committed to writing clean, efficient code, optimizing application performance, and continuously upgrading skills to align with evolving technology trends',
 }
 
 // STATS
