@@ -5,8 +5,7 @@
 
     <div class="contact-block fade-up">
       <p class="contact-intro">
-        I'm open to new opportunities in Java Backend / Full Stack development.
-        Feel free to reach out if you'd like to work together or just say hi!
+        I'm open to new opportunities in Java Full Stack Developer, Software Developer, Backend Developer, and Application Support roles.
       </p>
 
       <div class="contact-links">
@@ -26,6 +25,15 @@
           <span class="icon">💻</span>
           <span>github.com/surajsomwanshi</span>
         </a>
+        <div class="contact-row resume-row">
+          <span class="icon">📄</span>
+          <span>Resume</span>
+          <div class="resume-actions">
+            <a :href="profile.resumeUrl" target="_blank" class="resume-btn view-btn">View</a>
+            <a :href="profile.resumeUrl" download="Suraj_Somwanshi_Resume.pdf"
+              class="resume-btn download-btn">Download</a>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -100,4 +108,39 @@ defineProps({
 a.contact-row:hover { color: var(--accent); }
 
 .icon { color: var(--accent); font-size: 1rem; }
+
+.resume-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.resume-actions {
+  display: flex;
+  gap: 8px;
+  margin-left: auto;
+}
+
+.resume-btn {
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+.resume-btn:hover {
+  opacity: 0.8;
+}
+
+.view-btn {
+  background-color: #00e5a0;
+  color: white;
+}
+
+.download-btn {
+  background-color: #00e5a0;
+  color: white;
+}
 </style>

@@ -9,6 +9,7 @@ export const profile = {
   location: 'Pune, Maharashtra',
   linkedin: 'https://www.linkedin.com/in/suraj-somwanshi',
   github:   'https://github.com/surajsomwanshi',
+  resumeUrl: '/resume/Suraj_Somwanshi_Resume.pdf',
   summary:
     'Java Full Stack Developer with 4 years of experience in BFSI Insurance and Life Science domains. Strong expertise in Spring Boot, REST APIs, PostgreSQL, and experience working with Microservices and Monolithic architectures. Working knowledge of Angular and Vue with a primary focus on backend development, production support, and Agile delivery. Committed to writing clean, efficient code, optimizing application performance, and continuously upgrading skills to align with evolving technology trends',
 }

@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar">
     <!-- Logo -->
-    <div class="nav-logo">SS<span class="accent">.</span></div>
+    <div class="nav-logo">Suraj Somwanshi<span class="accent">.</span></div>
 
     <!-- Navigation Links -->
     <ul class="nav-links">

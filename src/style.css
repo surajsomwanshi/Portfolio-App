@@ -5,7 +5,6 @@
 :root {
   --bg:        #0a0a0f;       /* Page background         */
   --surface:   #12121a;       /* Card / block background */
-  --border:    #1e1e2e;       /* Border color            */
   --accent:    #00e5a0;       /* Primary accent (green)  */
   --accent2:   #ff6b6b;       /* Secondary accent (red)  */
   --text:      #e8e8f0;       /* Main text               */
